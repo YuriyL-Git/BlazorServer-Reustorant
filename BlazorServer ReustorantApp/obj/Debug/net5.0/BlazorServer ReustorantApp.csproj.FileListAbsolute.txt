@@ -1,0 +1,58 @@
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\bin\Debug\net5.0\appsettings.Development.json
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\bin\Debug\net5.0\appsettings.json
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\bin\Debug\net5.0\BlazorServer ReustorantApp.StaticWebAssets.xml
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\bin\Debug\net5.0\BlazorServer ReustorantApp.exe
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\bin\Debug\net5.0\BlazorServer ReustorantApp.deps.json
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\bin\Debug\net5.0\BlazorServer ReustorantApp.runtimeconfig.json
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\bin\Debug\net5.0\BlazorServer ReustorantApp.runtimeconfig.dev.json
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\bin\Debug\net5.0\BlazorServer ReustorantApp.dll
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\bin\Debug\net5.0\ref\BlazorServer ReustorantApp.dll
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\bin\Debug\net5.0\BlazorServer ReustorantApp.pdb
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\bin\Debug\net5.0\BlazorServer ReustorantApp.Views.dll
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\bin\Debug\net5.0\BlazorServer ReustorantApp.Views.pdb
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\BlazorServer ReustorantApp.csprojAssemblyReference.cache
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\BlazorServer ReustorantApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\BlazorServer ReustorantApp.AssemblyInfoInputs.cache
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\BlazorServer ReustorantApp.AssemblyInfo.cs
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\BlazorServer ReustorantApp.csproj.CoreCompileInputs.cache
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\BlazorServer ReustorantApp.MvcApplicationPartsAssemblyInfo.cache
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\BlazorServer ReustorantApp.RazorComponent.input.cache
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\RazorDeclaration\Pages\Counter.razor.g.cs
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\RazorDeclaration\Pages\FetchData.razor.g.cs
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\BlazorServer ReustorantApp.RazorComponent.output.cache
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\RazorDeclaration\BlazorServer ReustorantApp.dll
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\BlazorServer ReustorantApp.TagHelpers.input.cache
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\BlazorServer ReustorantApp.TagHelpers.output.cache
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\BlazorServer ReustorantApp.RazorCoreGenerate.cache
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\Razor\App.razor.g.cs
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\Razor\Pages\Counter.razor.g.cs
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\Razor\Pages\FetchData.razor.g.cs
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\Razor\Shared\SurveyPrompt.razor.g.cs
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\Razor\Shared\MainLayout.razor.g.cs
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\Razor\Shared\NavMenu.razor.g.cs
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\Razor\Pages\_Host.cshtml.g.cs
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\BlazorServer ReustorantApp.RazorAssemblyInfo.cache
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\BlazorServer ReustorantApp.RazorAssemblyInfo.cs
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\staticwebassets\BlazorServer ReustorantApp.StaticWebAssets.Manifest.cache
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\staticwebassets\BlazorServer ReustorantApp.StaticWebAssets.xml
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\scopedcss\bundle\BlazorServer ReustorantApp.styles.css
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\scopedcss\projectbundle\BlazorServer ReustorantApp.bundle.scp.css
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\BlazorServer ReustorantApp.RazorTargetAssemblyInfo.cache
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\BlazorServer ReustorantApp.RazorTargetAssemblyInfo.cs
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\BlazorServer ReustorantApp.Views.pdb
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\BlazorServer ReustorantApp.dll
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\ref\BlazorServer ReustorantApp.dll
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\BlazorServer ReustorantApp.pdb
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\BlazorServer ReustorantApp.genruntimeconfig.cache
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\BlazorServer ReustorantApp.csproj.CopyComplete
