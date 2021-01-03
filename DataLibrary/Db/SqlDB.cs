@@ -22,8 +22,8 @@ namespace DataLibrary.Db
 
         public async Task<List<T>> LoadData<T, U>(string storedProcedure, U parameters, string connectionStringName)
         {
-            //  string connectionString = _config.GetConnectionString(connectionStringName);
-            string connectionString = connectionStringName;
+              string connectionString = _config.GetConnectionString(connectionStringName);
+          //  string connectionString = connectionStringName;
 
             using (IDbConnection connection = new SqlConnection(connectionString))
             {
@@ -36,8 +36,8 @@ namespace DataLibrary.Db
 
         public async Task<int> SaveData<T>(string storedProcedure, T parameters, string connectionStringName)
         {
-            // string connectionString = _config.GetConnectionString(connectionStringName);
-            string connectionString = connectionStringName;
+             string connectionString = _config.GetConnectionString(connectionStringName);
+           // string connectionString = connectionStringName;
 
             using (IDbConnection connection = new SqlConnection(connectionString))
             {

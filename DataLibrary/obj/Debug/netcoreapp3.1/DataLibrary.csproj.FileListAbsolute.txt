@@ -34,3 +34,12 @@ C:\GitRepository\API Reustorant\DataLibrary\obj\Debug\netcoreapp3.1\DataLibrary.
 C:\GitRepository\API Reustorant\DataLibrary\obj\Debug\netcoreapp3.1\DataLibrary.dll
 C:\GitRepository\API Reustorant\DataLibrary\obj\Debug\netcoreapp3.1\DataLibrary.pdb
 C:\GitRepository\API Reustorant\DataLibrary\obj\Debug\netcoreapp3.1\DataLibrary.csprojAssemblyReference.cache
+C:\GitRepository\BlazorServer Reustorant\DataLibrary\bin\Debug\netcoreapp3.1\DataLibrary.deps.json
+C:\GitRepository\BlazorServer Reustorant\DataLibrary\bin\Debug\netcoreapp3.1\DataLibrary.dll
+C:\GitRepository\BlazorServer Reustorant\DataLibrary\bin\Debug\netcoreapp3.1\DataLibrary.pdb
+C:\GitRepository\BlazorServer Reustorant\DataLibrary\obj\Debug\netcoreapp3.1\DataLibrary.csprojAssemblyReference.cache
+C:\GitRepository\BlazorServer Reustorant\DataLibrary\obj\Debug\netcoreapp3.1\DataLibrary.AssemblyInfoInputs.cache
+C:\GitRepository\BlazorServer Reustorant\DataLibrary\obj\Debug\netcoreapp3.1\DataLibrary.AssemblyInfo.cs
+C:\GitRepository\BlazorServer Reustorant\DataLibrary\obj\Debug\netcoreapp3.1\DataLibrary.csproj.CoreCompileInputs.cache
+C:\GitRepository\BlazorServer Reustorant\DataLibrary\obj\Debug\netcoreapp3.1\DataLibrary.dll
+C:\GitRepository\BlazorServer Reustorant\DataLibrary\obj\Debug\netcoreapp3.1\DataLibrary.pdb
