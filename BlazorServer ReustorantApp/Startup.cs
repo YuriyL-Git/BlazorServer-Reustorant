@@ -1,4 +1,5 @@
-using BlazorServer_ReustorantApp.Data;
+using BlazorServer_ReustorantApp;
+using DataLibrary.Db;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Hosting;
@@ -10,6 +11,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DataLibrary.Data;
 
 namespace BlazorServer_ReustorantApp
 {
@@ -28,6 +30,14 @@ namespace BlazorServer_ReustorantApp
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
+            services.AddSingleton(new ConnectionStringData
+            {
+                SqlConnectionName = "Default"
+            });
+
+            services.AddSingleton<IDataAccess, SqlDB>();
+            services.AddSingleton<IFoodData, FoodData>();
+            services.AddSingleton<IOrderData, OrderData>();
 
 
         }

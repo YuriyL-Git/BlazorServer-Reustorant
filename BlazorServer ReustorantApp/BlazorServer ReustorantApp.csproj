@@ -5,4 +5,8 @@
     <RootNamespace>BlazorServer_ReustorantApp</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DataLibrary\DataLibrary.csproj" />
+  </ItemGroup>
+
 </Project>
