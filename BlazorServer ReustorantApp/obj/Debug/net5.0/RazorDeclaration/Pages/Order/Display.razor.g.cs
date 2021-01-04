@@ -96,6 +96,13 @@ using DataLibrary.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 5 "C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\Pages\Order\Display.razor"
+using BlazorServer_ReustorantApp.Models;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/order/display/{Id:int}")]
     [Microsoft.AspNetCore.Components.RouteAttribute("/order/display/")]
     public partial class Display : Microsoft.AspNetCore.Components.ComponentBase
@@ -106,13 +113,14 @@ using DataLibrary.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 47 "C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\Pages\Order\Display.razor"
+#line 59 "C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\Pages\Order\Display.razor"
        
     [Parameter]
     public int Id { get; set; }
 
     private OrderModel order;
     private String itemPurchased;
+    private OrderUpdateModel updateModel = new OrderUpdateModel();
 
     protected override async Task OnInitializedAsync()
     {
@@ -122,7 +130,16 @@ using DataLibrary.Models;
             var food = await foodData.GetFood();
 
             itemPurchased = food.Where(x => x.Id == order.FoodId).FirstOrDefault().Title;
+
+            updateModel.Id = order.Id;
+            updateModel.OrderName = order.OrderName;
         }
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        await orderData.UpdateOrderName(updateModel.Id, updateModel.OrderName);
+        order.OrderName = updateModel.OrderName;
     }
 
 
