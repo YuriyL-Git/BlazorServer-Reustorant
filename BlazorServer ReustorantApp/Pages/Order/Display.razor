@@ -8,10 +8,17 @@
 
 <h3>Display</h3>
 
-@if (order is null)
+@if (recordNotFound)
+{
+    <h4>Record Not Found</h4>
+}
+
+else if (order is null)
 {
     <h4> Record Loading...</h4>
+   
 }
+
 else
 {
     <table class="table">
@@ -85,6 +92,7 @@ else
     private String itemPurchased;
     private OrderUpdateModel updateModel = new OrderUpdateModel();
     private bool confirmDelete = false;
+    private bool recordNotFound = false;
 
     protected override async Task OnInitializedAsync()
     {
@@ -97,6 +105,10 @@ else
 
             updateModel.Id = order.Id;
             updateModel.OrderName = order.OrderName;
+        }
+        else
+        {
+            recordNotFound = true;
         }
     }
 

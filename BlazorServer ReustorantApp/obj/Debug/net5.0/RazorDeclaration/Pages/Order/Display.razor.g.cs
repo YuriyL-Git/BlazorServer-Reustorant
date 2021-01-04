@@ -97,7 +97,7 @@ using DataLibrary.Models;
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\Pages\Order\Display.razor"
+#line 7 "C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\Pages\Order\Display.razor"
 using BlazorServer_ReustorantApp.Models;
 
 #line default
@@ -113,7 +113,7 @@ using BlazorServer_ReustorantApp.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 59 "C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\Pages\Order\Display.razor"
+#line 87 "C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\Pages\Order\Display.razor"
        
     [Parameter]
     public int Id { get; set; }
@@ -121,11 +121,13 @@ using BlazorServer_ReustorantApp.Models;
     private OrderModel order;
     private String itemPurchased;
     private OrderUpdateModel updateModel = new OrderUpdateModel();
+    private bool confirmDelete = false;
+    private bool recordNotFound = false;
 
     protected override async Task OnInitializedAsync()
     {
         order = await orderData.GetOrderById(Id);
-        if (order !=null)
+        if (order != null)
         {
             var food = await foodData.GetFood();
 
@@ -133,6 +135,10 @@ using BlazorServer_ReustorantApp.Models;
 
             updateModel.Id = order.Id;
             updateModel.OrderName = order.OrderName;
+        }
+        else
+        {
+            recordNotFound = true;
         }
     }
 
@@ -142,11 +148,17 @@ using BlazorServer_ReustorantApp.Models;
         order.OrderName = updateModel.OrderName;
     }
 
+    private async Task HandleDeleteRecord()
+    {
+        await orderData.DeleteOrder(Id);
+        navigationManager.NavigateTo("food/list");
+    }
 
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager navigationManager { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private IOrderData orderData { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private IFoodData foodData { get; set; }
     }
