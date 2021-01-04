@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServer ReustorantApp", "BlazorServer ReustorantApp\BlazorServer ReustorantApp.csproj", "{D45881F9-B23B-4B89-8186-9E36629C6515}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorServer ReustorantApp", "BlazorServer ReustorantApp\BlazorServer ReustorantApp.csproj", "{D45881F9-B23B-4B89-8186-9E36629C6515}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLibrary", "DataLibrary\DataLibrary.csproj", "{366D3666-7B54-4327-9564-BB0E3DE9C463}"
 EndProject
