@@ -13,20 +13,20 @@ else
 {
     <table class="table">
         <tbody>
-            <tr>
-                <td><strong>OrderName</strong></td>
-                <td>@order.OrderName</td>
-            </tr>
+        <tr>
+            <td><strong>OrderName</strong></td>
+            <td>@order.OrderName</td>
+        </tr>
 
-            <tr>
-                <td><strong>Order Date</strong></td>
-                <td>@order.OrderDate</td>
-            </tr>
+        <tr>
+            <td><strong>Order Date</strong></td>
+            <td>@order.OrderDate</td>
+        </tr>
 
-            <tr>
-                <td><strong>Order Total</strong></td>
-                <td>@string.Format("{0:C}", order.Total)</td>
-            </tr>
+        <tr>
+            <td><strong>Order Total</strong></td>
+            <td>@string.Format("{0:C}", order.Total)</td>
+        </tr>
 
         <tr>
             <td><strong>Item Ordered</strong></td>
@@ -38,6 +38,10 @@ else
         </tr>
         </tbody>
     </table>
+    <EditForm>
+        
+
+    </EditForm>
 }
 
 @code {

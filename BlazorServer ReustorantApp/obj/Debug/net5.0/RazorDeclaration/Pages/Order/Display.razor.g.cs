@@ -106,7 +106,7 @@ using DataLibrary.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 43 "C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\Pages\Order\Display.razor"
+#line 47 "C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\Pages\Order\Display.razor"
        
     [Parameter]
     public int Id { get; set; }

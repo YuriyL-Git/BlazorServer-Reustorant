@@ -80,3 +80,5 @@ C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\ne
 C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\Razor\Pages\Order\Create.razor.g.cs
 C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\RazorDeclaration\Pages\Order\Display.razor.g.cs
 C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\Razor\Pages\Order\Display.razor.g.cs
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\RazorDeclaration\Pages\Food\List.razor.g.cs
+C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\obj\Debug\net5.0\Razor\Pages\Food\List.razor.g.cs

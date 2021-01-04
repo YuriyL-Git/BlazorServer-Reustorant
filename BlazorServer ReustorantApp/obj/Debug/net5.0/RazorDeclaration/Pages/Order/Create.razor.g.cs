@@ -105,7 +105,7 @@ using DataLibrary.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 42 "C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\Pages\Order\Create.razor"
+#line 43 "C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\Pages\Order\Create.razor"
  
     private OrderModel order = new OrderModel();
     private List<FoodModel> foodItems = new List<FoodModel>();
@@ -137,12 +137,14 @@ using DataLibrary.Models;
 
         int id = await orderData.CreateOrder(order);
 
-        order = new OrderModel();
+
+        navigationManager.NavigateTo($"order/display/{id}");
     }
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager navigationManager { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private IOrderData orderData { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private IFoodData foodData { get; set; }
     }

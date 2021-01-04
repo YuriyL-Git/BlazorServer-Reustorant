@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace BlazorServer_ReustorantApp.Shared
+namespace BlazorServer_ReustorantApp.Pages.Food
 {
     #line hidden
     using System;
@@ -96,7 +96,15 @@ using DataLibrary.Models;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+#nullable restore
+#line 2 "C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\Pages\Food\List.razor"
+using System.Globalization;
+
+#line default
+#line hidden
+#nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/Food/List")]
+    public partial class List : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -104,20 +112,20 @@ using DataLibrary.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 36 "C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\Shared\NavMenu.razor"
+#line 36 "C:\GitRepository\BlazorServer Reustorant\BlazorServer ReustorantApp\Pages\Food\List.razor"
        
-    private bool collapseNavMenu = true;
+    private List<FoodModel> foodList;
 
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
+    protected override async Task OnInitializedAsync()
     {
-        collapseNavMenu = !collapseNavMenu;
+        foodList = await foodData.GetFood();
     }
+
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IFoodData foodData { get; set; }
     }
 }
 #pragma warning restore 1591
